@@ -1,0 +1,26 @@
+{
+  "name": "veemail-gmail",
+  "version": "0.0.1",
+  "description": "Veemail, is a Video Email add-on for Gmail allowing for the exchange of video based conversations.",
+  "main": "addon.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeCleme/veemail-gmail.git"
+  },
+  "keywords": [
+    "video",
+    "email"
+  ],
+  "author": "Guillaume Clement",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GuillaumeCleme/veemail-gmail/issues"
+  },
+  "homepage": "https://github.com/GuillaumeCleme/veemail-gmail#readme",
+  "devDependencies": {
+    "node-google-apps-script": "^1.3.1"
+  }
+}
