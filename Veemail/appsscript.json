@@ -1,0 +1,26 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.current.message.metadata",
+    "https://www.googleapis.com/auth/gmail.addons.current.action.compose",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/gmail.addons.execute", 
+    "https://www.googleapis.com/auth/userinfo.email"
+  ],
+  "runtimeVersion": "V8",
+  "gmail": {
+    "name": "Veemail for Gmail",
+    "logoUrl": "https://www.gstatic.com/images/branding/googleg/1x/googleg_standard_color_64dp.png",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "loadAddOn"
+    }],
+    "primaryColor": "#146b2e",
+    "openLinkUrlPrefixes": ["https://developers.google.com/gmail"],
+    "version": "TRUSTED_TESTER_V2"
+  }
+}
